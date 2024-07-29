@@ -1,4 +1,5 @@
 project "freetype"
+	toolset "v143"
 	location "freetype"
 	kind "StaticLib"
 	language "C"
@@ -86,6 +87,7 @@ project "freetype"
         symbols "off"
 
 project "msdfgen"
+	toolset "v143"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++17"
